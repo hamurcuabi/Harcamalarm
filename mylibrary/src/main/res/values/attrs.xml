@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalendarView">
+        <attr name="textColor" format="color"/>
+        <attr name="textInsideCircleColor" format="color"/>
+        <attr name="weekDaysNamesColor" format="color"/>
+        <attr name="currentDayCircleColor" format="color"/>
+        <attr name="selectedCircleColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="firstDayOfWeek" format="enum">
+            <enum name="sunday" value="1"/>
+            <enum name="monday" value="2"/>
+            <enum name="tuesday" value="3"/>
+            <enum name="wednesday" value="4"/>
+            <enum name="thursday" value="5"/>
+            <enum name="friday" value="6"/>
+            <enum name="saturday" value="7"/>
+        </attr>
+    </declare-styleable>
+</resources>

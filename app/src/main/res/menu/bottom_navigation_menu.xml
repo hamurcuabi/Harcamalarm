@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_house"
+        android:icon="@drawable/ic_house"
+        android:title="Takvim">
+    </item>
+
+
+    <item
+        android:id="@+id/ic_search"
+        android:icon="@drawable/ic_day"
+        android:title="Günlük">
+    </item>
+
+
+    <item
+        android:id="@+id/ic_alert"
+        android:icon="@drawable/ic_general"
+        android:title="Genel">
+    </item>
+
+
+</menu>

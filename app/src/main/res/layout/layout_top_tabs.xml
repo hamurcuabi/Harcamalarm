@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/relTab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style1_border_bottom"
+               >
+
+               <android.support.constraint.ConstraintLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   >
+
+                   <ImageView
+                       android:id="@+id/imgLeft"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="8dp"
+                       android:layout_marginTop="8dp"
+                       android:src="@drawable/ic_calendar"
+                       app:layout_constraintBottom_toBottomOf="parent"
+                       app:layout_constraintStart_toStartOf="parent"
+                       app:layout_constraintTop_toTopOf="parent" />
+
+
+                   <TextView
+
+                       android:id="@+id/toolbar_title"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:layout_marginBottom="8dp"
+                       android:layout_marginEnd="8dp"
+                       android:layout_marginLeft="8dp"
+                       android:layout_marginRight="8dp"
+                       android:layout_marginStart="8dp"
+                       android:layout_marginTop="8dp"
+                       android:gravity="center"
+                       android:textColor="@color/white"
+                       android:textSize="24sp"
+                       android:textStyle="bold"
+                       app:layout_constraintBottom_toBottomOf="parent"
+                       app:layout_constraintEnd_toStartOf="@+id/imgRight"
+                       app:layout_constraintStart_toEndOf="@+id/imgLeft"
+                       app:layout_constraintTop_toTopOf="parent" />
+
+
+                   <ImageView
+                       android:id="@+id/imgRight"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="right"
+                       android:layout_marginBottom="8dp"
+                       android:layout_marginEnd="16dp"
+                       android:layout_marginRight="16dp"
+                       android:layout_marginTop="8dp"
+                       android:src="@drawable/ic_setting"
+                       app:layout_constraintBottom_toBottomOf="parent"
+                       app:layout_constraintEnd_toEndOf="parent"
+                       app:layout_constraintTop_toTopOf="parent" />
+               </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+    </RelativeLayout>
+
+
+</merge>

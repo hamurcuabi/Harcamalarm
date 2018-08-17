@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Harcamalarım</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Sonraki</string>
+    <string name="skip">GEÇ</string>
+    <string name="start">ANLADIM</string>
+
+    <string name="slide_1_title">Özel Takvim</string>
+    <string name="slide_1_desc">Kullanıcı dostu takvimi ile rahat kullanım</string>
+
+    <string name="slide_2_title">Harcamalarınızı Kaydedin</string>
+    <string name="slide_2_desc">Yaptığınız harcamaları rahatça kaydedin paranızın nereye
+        gittiğini görün</string>
+
+    <string name="slide_3_title">Hazır Harcama Grupları</string>
+    <string name="slide_3_desc">Eklenecek harcamaları hazır gruplardan seçebilirsiniz</string>
+
+    <string name="slide_4_title">Verileriniz Güvende</string>
+    <string name="slide_4_desc">Yapılan işlemlerin kaydı telefonunuzdaki veri tabanında
+        saklı kalacaktır</string>
+
+    <string name="play_again_desc">Tekrar Görmek için Settings -> apps -> welcome slider -> clear
+        data</string>
+    <string name="play_again">Yeniden Oynat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Açıklama</string>
+    <string name="type">Kur</string>
+    <string name="payment">Ödeme</string>
+    <string name="date">Tarih</string>
+    <string name="amount">Miktar</string>
+    <string name="inorout">Para Yönü</string>
+    <string-array name="spinner_items">
+        <item>Özel</item>
+        <item>Yiyecek</item>
+        <item>Seyehat</item>
+        <item>Eğitim</item>
+        <item>Sağlık</item>
+        <item>Aile</item>
+        <item>Maaş</item>
+        <item>Alışveriş</item>
+        <item>Aktivite</item>
+        <item>Banka</item>
+        <item>İş</item>
+        <item>Borç</item>
+
+    </string-array>
+</resources>
